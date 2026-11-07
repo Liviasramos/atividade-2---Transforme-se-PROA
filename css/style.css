@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    background-color: #F1EBDD;
+    font-family: Arial, sans-serif;
+    color: #244C36;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    background-color: #244C36;
+}
+
+.head p {
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+   
+}
+
+.head p:hover {
+    color: #B8CDA5;
+}
+
+.logo {
+    text-align: center;
+    font-size: 40px;
+    color: #244C36;
+    grid-column: auto;
+
+    }
+  
+
+.p1 {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 900px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+
+
+}
+
+.cnt {
+    text-align: center;
+}
+
+  
+.card-projeto figcaption {
+  margin-top: 10px;
+  text-align: center;      
+}
+
+.card-projeto h3 {
+  font-size: 1.2rem;
+  color: #2e7d32;         
+  margin-bottom: 8px;
+  }
+
+  .imgt {
+    display: flex;
+    width: 250;
+  }
+  
+
+.card-projeto p {
+  font-size: 1rem;
+  color: #666;
+}
+
+
+.nc {
+    text-align: center;
+}
+
+.head2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    background-color: #244C36;
+    text-align: center;
+}
+
+.tel {
+    color: bisque;
+}
+
+.email {
+    color: bisque;
+}
+
+.end {
+    color: bisque;
+}
+
+
+
