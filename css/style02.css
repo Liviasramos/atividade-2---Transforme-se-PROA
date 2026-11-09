@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nome {
+    color: brown;
+}
+
+header {
+    background-color: #f7f2e8;
+}
+
+.inicio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 6%;
+}
+
+.nome {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding: 10px;
+}
+
+.pesquisa input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.contato a {
+    font-size: 13px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 6%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.menu a:hover {
+    color: #a94e32;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #292802;
+    transition: color 0.3s;
+}
+
+.banner {
+    display: flex;
+    width: 100%;
+    min-height: 450px;
+}
+
+.banner-txt {
+    background-color: #a94e32;
+    color: #f7f2e8;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 6%;
+}
+
+.subtitulo {
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.banner-txt h2 {
+    font-family: serif;
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+
+.botao {
+    text-decoration: none;
+    background-color: #f7f2e8;
+    color: #292802;
+    padding: 10px 20px;
+    width: fit-content;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #292802;
+    color: white;
+}
+
+.banner-img {
+    width: 60%;
+    overflow: hidden;
+}
+
+.banner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.categorias {
+    padding: 60px 10%;
+    background-color: #f7f2e8;
+}
+
+
+
+.titulo-categorias {
+    margin-bottom: 30px;
+}
+
+.titulo-categorias p {
+    color: #a94e32;
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.titulo-categorias h2 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: #292820;
+}
+
+
+
+.lista-categorias {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.categoria {
+    width: 25%;
+    cursor: pointer;
+}
+
+
+
+.categoria img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+
+
+.categoria:hover img {
+    transform: scale(1.03);
+}
+
+
+.categoria h3 {
+    font-family: Georgia, serif;
+    font-size: 19px;
+    font-weight: normal;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+
+.categoria p {
+    color: #81796b;
+    font-size: 12px;
+}
+
+
+
+.contato-site {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 60px 20px;
+    background-color: #f5f5df;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.titulo-contato {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.titulo-contato h2 {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    font-weight: normal;
+    color: #a94e32;
+    margin-bottom: 10px;
+}
+
+.titulo-contato p {
+    font-size: 14px;
+    color: #70695e;
+}
+
+
+.informacoes-contato {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.item-contato h3 {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 8px;
+}
+
+.item-contato p {
+    font-size: 14px;
+    color: #70695e;
+}
